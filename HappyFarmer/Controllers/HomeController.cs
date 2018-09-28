@@ -9,6 +9,7 @@ namespace HappyFarmer.Controllers
             return View();
         }
 
+//test command
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
