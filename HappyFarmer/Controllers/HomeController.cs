@@ -9,7 +9,6 @@ namespace HappyFarmer.Controllers
             return View();
         }
 
-//test command
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -20,6 +19,13 @@ namespace HappyFarmer.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        
+        public ActionResult Dashboard()
+        {
+            ViewBag.Message = "Dashboard.";
 
             return View();
         }
