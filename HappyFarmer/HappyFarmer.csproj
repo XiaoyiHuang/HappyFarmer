@@ -128,6 +128,12 @@
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\site.css" />
+    <Content Include="Content\examples\icons.html" />
+    <Content Include="Content\examples\login.html" />
+    <Content Include="Content\examples\maps.html" />
+    <Content Include="Content\examples\profile.html" />
+    <Content Include="Content\examples\register.html" />
+    <Content Include="Content\examples\tables.html" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
@@ -152,6 +158,7 @@
     <Content Include="Content\img\theme\team-3-800x800.jpg" />
     <Content Include="Content\img\theme\team-4-800x800.jpg" />
     <Content Include="Content\img\theme\vue.jpg" />
+    <Content Include="Content\index.html" />
     <Content Include="Content\js\argon.js" />
     <Content Include="Content\js\argon.min.js" />
     <Content Include="Content\scss\argon.scss" />
