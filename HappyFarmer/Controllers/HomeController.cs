@@ -47,5 +47,10 @@ namespace HappyFarmer.Controllers
         {
             return View();
         }
+
+        public ActionResult Tables()
+        {
+            return View();
+        }
     }
 }
