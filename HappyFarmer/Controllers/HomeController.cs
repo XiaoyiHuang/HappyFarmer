@@ -25,8 +25,26 @@ namespace HappyFarmer.Controllers
         
         public ActionResult Dashboard()
         {
-            ViewBag.Message = "Dashboard.";
+            return View();
+        }
 
+        public new ActionResult Profile()
+        {
+            return View();
+        }
+
+        public ActionResult Register()
+        {
+            return PartialView();
+        }
+
+        public ActionResult Login()
+        {
+            return PartialView();
+        }
+
+        public ActionResult Map()
+        {
             return View();
         }
     }
