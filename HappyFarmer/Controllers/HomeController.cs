@@ -28,14 +28,19 @@ namespace HappyFarmer.Controllers
             return View();
         }
 
-        public ActionResult Profile()
+        public new ActionResult Profile()
         {
             return View();
         }
 
         public ActionResult Register()
         {
-            return View();
+            return PartialView();
+        }
+
+        public ActionResult Login()
+        {
+            return PartialView();
         }
     }
 }
