@@ -4,11 +4,10 @@
 
 <head>
   <meta name="description" content="Dashboard for displaying sensor information">
-  <meta name="author" content="Purdue CNIT 581-IoT HappyFarmer Team">
+  <meta name="author" content="Xiaoyi Huang - HappyFarmer Team">
 </head>
 
 <body>
-
 <!-- Sidenav -->
 <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
   <div class="container-fluid">
@@ -52,7 +51,7 @@
           <a href="~/Content/examples/profile.html" class="dropdown-item">
             <i class="ni ni-single-02"></i>
             <span>My profile</span>
-          </a>
+          </a>         
           <a href="~/Content/examples/profile.html" class="dropdown-item">
             <i class="ni ni-settings-gear-65"></i>
             <span>Settings</span>
@@ -123,7 +122,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="~/Content/examples/profile.html">
+          <a class="nav-link" href="@Url.Action("Profile")">
             <i class="ni ni-single-02 text-yellow"></i> User profile
           </a>
         </li>
@@ -212,7 +211,7 @@
           </div>
 
           <!-- My Profile -->
-          <a href="~/Content/examples/profile.html" class="dropdown-item">
+          <a href="@Url.Action("Profile")" class="dropdown-item">
             <i class="ni ni-single-02"></i>
             <span>My profile</span>
           </a>
