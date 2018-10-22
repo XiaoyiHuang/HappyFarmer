@@ -42,5 +42,10 @@ namespace HappyFarmer.Controllers
         {
             return PartialView();
         }
+
+        public ActionResult Map()
+        {
+            return View();
+        }
     }
 }
