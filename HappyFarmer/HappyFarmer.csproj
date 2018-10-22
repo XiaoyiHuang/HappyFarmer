@@ -3447,6 +3447,7 @@
     <Content Include="Views\Home\Map.cshtml" />
     <Content Include="Views\Home\Profile.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
+    <Content Include="Views\Home\Tables.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
