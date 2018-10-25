@@ -145,6 +145,8 @@
     <Content Include="Content\fonts\nucleo\nucleo-icons.woff2" />
     <Content Include="Content\img\brand\blue.png" />
     <Content Include="Content\img\brand\favicon.png" />
+    <Content Include="Content\img\brand\farmer.png" />
+    <Content Include="Content\img\brand\happyfarmer.png" />
     <Content Include="Content\img\brand\white.png" />
     <Content Include="Content\img\icons\common\github.svg" />
     <Content Include="Content\img\icons\common\google.svg" />
@@ -3441,8 +3443,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Views\Home\Dashboard.cshtml" />
-    <Content Include="Views\Home\Dashboard_old.cshtml" />
+    <Content Include="Views\Home\DeviceData.cshtml" />
+    <Content Include="Views\Home\SoilData.cshtml" />
+    <Content Include="Views\Home\WeatherData.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Map.cshtml" />
     <Content Include="Views\Home\Profile.cshtml" />
