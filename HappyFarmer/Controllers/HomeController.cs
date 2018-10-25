@@ -23,7 +23,17 @@ namespace HappyFarmer.Controllers
             return View();
         }
         
-        public ActionResult Dashboard()
+        public ActionResult WeatherData()
+        {
+            return View();
+        }
+        
+        public ActionResult SoilData()
+        {
+            return View();
+        }
+        
+        public ActionResult DeviceData()
         {
             return View();
         }
