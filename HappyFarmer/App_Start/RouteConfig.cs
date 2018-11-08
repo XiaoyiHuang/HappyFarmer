@@ -11,7 +11,7 @@ namespace HappyFarmer
             routes.MapRoute(
                 "Default",
                 "{controller}/{action}/{id}",
-                new {controller = "Home", action = "Dashboard", id = UrlParameter.Optional}
+                new {controller = "Home", action = "WeatherData", id = UrlParameter.Optional}
             );
         }
     }
