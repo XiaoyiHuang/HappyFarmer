@@ -43,18 +43,6 @@ namespace HappyFarmer.Controllers
             return View();
         }
 
-        public ActionResult Register()
-        {
-            return PartialView();
-        }
-
- 
-        public ActionResult Login()
-        {
-            
-            return PartialView();
-        }
-
         public ActionResult Map()
         {
             return View();
