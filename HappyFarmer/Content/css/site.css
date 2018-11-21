@@ -22,3 +22,15 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.glyphicon-one-fine-red-dot:before {
+    content:"\25cf";
+    font-size: 3em;
+    color: red;
+}
+
+.glyphicon-one-fine-green-dot:before {
+    content:"\25cf";
+    font-size: 3em;
+    color: green;
+}

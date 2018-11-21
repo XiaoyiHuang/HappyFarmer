@@ -13,7 +13,9 @@
     <link href="~/Content/vendor/nucleo/css/nucleo.css" rel="stylesheet">
     <link href="~/Content/vendor/fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
     <!-- Argon CSS -->
-    <link type="text/css" href="~/Content/css/argon.css?v=1.0.0" rel="stylesheet">
+  <link type="text/css" href="~/Content/css/argon.css?v=1.0.0" rel="stylesheet">
+    <!-- Custom CSS -->
+  <link type="text/css" href="~/Content/css/site.css" rel="stylesheet">
 </head>
 
 <body>
@@ -135,26 +137,6 @@
                 <i class="ni ni-pin-3 text-orange"></i> Maps
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="@Url.Action("Profile")">
-                <i class="ni ni-single-02 text-yellow"></i> User profile
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="@Url.Action("Tables")">
-                <i class="ni ni-bullet-list-67 text-red"></i> Tables
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="@Url.Action("Login")">
-                <i class="ni ni-key-25 text-info"></i> Login
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="@Url.Action("Register")">
-                <i class="ni ni-circle-08 text-pink"></i> Register
-              </a>
-            </li>
           </ul>
         </div>
       </div>
@@ -166,7 +148,7 @@
       <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
         <div class="container-fluid">
           <!-- Brand -->
-          <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="@Url.Action("Dashboard")">Dashboard</a>
+          <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="@Url.Action("WeatherDashboard")">Dashboard</a>
             
           <!-- SearchBar -->
           <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
